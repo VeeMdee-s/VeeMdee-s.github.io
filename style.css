@@ -153,4 +153,33 @@ section.visible {
 .btn:hover {
   background-color: #008c9e;
 }
+/* 🪶 Responsive Fixes for Mobile */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 20px 10px;
+  }
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
 
